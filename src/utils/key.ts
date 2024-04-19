@@ -398,7 +398,7 @@ function buildLayerMenu(): IKeycodeMenu {
         code: 'MO(layer)',
         type: 'layer',
         layer: 0,
-        title: 'Momentary turn layer on',
+        title: 'Momentarily turn on layer when pressed (requires ▽ [KC_TRNS] on destination layer)',
       },
       {
         name: 'TG',
@@ -427,7 +427,7 @@ function buildLayerMenu(): IKeycodeMenu {
         code: 'TO(layer)',
         type: 'layer',
         layer: 0,
-        title: 'Turn on layer when pressed',
+        title: 'Turns on layer and turns off all other layers, except the default layer',
       },
       {
         name: 'DF',
